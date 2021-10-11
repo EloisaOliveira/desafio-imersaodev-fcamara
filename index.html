@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="./assets/fcamara.png" alt="" class="fcamara-logo">
+    <div class="conteudo">
+      <h1>De volta aos escritórios</h1>
+
+      <h2>Como vai funcionar ?</h2>
+
+      <div class="importante">
+        <strong>Pausa para um aviso importante!</strong> É impressindivel que todos entendam que essa volta é opcional,
+        tanto para quem
+        não mora perto dos escritórios, quanto para quem não se sente confortavel com a volta.Segurança em primeiro
+        lugar!
+      </div>
+
+      <div>
+        <ul>
+          <li>O horario de funcionamento é das 8h às 18h;</li>
+          <li>Temos dois escritórios, um localizado em São Paulo/SP e outro em Santos/SP;</li>
+          <li>Será medido a temperatura ao chegar no escritório;</li>
+          <li>Todos os consultores deverão usar mascaras dentro das acomodações dos escritórios;</li>
+          <li>Terá adesivos nas mesas sinalizando onde os #SangueLaranja devem sentar, garantindo o distanciamento
+            necessário;</li>
+          <li>Caso sintam algum sintoma de covid-19, fiquem em casa</li>
+          <li>Os escritórios só podem comportar até 40% dos consultores, conforme a legislação.</li>
+        </ul>
+      </div>
+      <h2>É necessario o agendamento</h2>
+
+    </div>
+    <div class="agendamento">
+      <h2>Agende aqui</h2>
+      <form>
+        <div class="input-block">
+          <label for="emal">E-mail:</label>
+          <input type="email" name="email" id="email">
+        </div>
+
+        <div class="input-block">
+          <label for="escritorio">Escritório:</label>
+          <select name="escritorio" id="escritorio">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Santos">Santos</option>
+          </select>
+        </div>
+
+        <div class="input-block">
+          <label for="data">Data:</label>
+          <input type="date" name="data" id="data">
+        </div>
+
+        <div class="input-block">
+          <label for="estacao-trabalho">Estação de Trabalho:</label><br>
+          <button type="submit" class="btn">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
