@@ -33,3 +33,20 @@ h2{
   color: white;
   text-align: center;
 }
+
+.container{
+  display: flex;
+}
+
+.conteudo{
+  color: white;
+  left: 0;
+  width: 70%;
+  padding: 2% 2%;
+}
+
+.importante{
+  background-color: orangered;
+  padding: 1%;
+  border-radius: 10px;
+}
